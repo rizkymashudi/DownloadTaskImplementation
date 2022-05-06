@@ -13,6 +13,7 @@
 		F5C30A3A2824C024000F1891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C30A382824C024000F1891 /* Main.storyboard */; };
 		F5C30A3C2824C025000F1891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C30A3B2824C025000F1891 /* Assets.xcassets */; };
 		F5C30A3F2824C025000F1891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C30A3D2824C025000F1891 /* LaunchScreen.storyboard */; };
+		F5C30A4A2824C185000F1891 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30A492824C185000F1891 /* DownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F5C30A3B2824C025000F1891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C30A3E2824C025000F1891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5C30A402824C025000F1891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C30A492824C185000F1891 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		F5C30A312824C024000F1891 /* DownloadTaskImplementation */ = {
 			isa = PBXGroup;
 			children = (
-				F5C30A322824C024000F1891 /* AppDelegate.swift */,
-				F5C30A342824C024000F1891 /* SceneDelegate.swift */,
-				F5C30A362824C024000F1891 /* ViewController.swift */,
-				F5C30A382824C024000F1891 /* Main.storyboard */,
+				F5C30A482824C173000F1891 /* Manager */,
+				F5C30A472824C057000F1891 /* ViewController */,
+				F5C30A462824C040000F1891 /* Base */,
 				F5C30A3B2824C025000F1891 /* Assets.xcassets */,
-				F5C30A3D2824C025000F1891 /* LaunchScreen.storyboard */,
 				F5C30A402824C025000F1891 /* Info.plist */,
 			);
 			path = DownloadTaskImplementation;
+			sourceTree = "<group>";
+		};
+		F5C30A462824C040000F1891 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30A322824C024000F1891 /* AppDelegate.swift */,
+				F5C30A342824C024000F1891 /* SceneDelegate.swift */,
+				F5C30A3D2824C025000F1891 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F5C30A472824C057000F1891 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30A362824C024000F1891 /* ViewController.swift */,
+				F5C30A382824C024000F1891 /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F5C30A482824C173000F1891 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30A492824C185000F1891 /* DownloadManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				F5C30A372824C024000F1891 /* ViewController.swift in Sources */,
 				F5C30A332824C024000F1891 /* AppDelegate.swift in Sources */,
 				F5C30A352824C024000F1891 /* SceneDelegate.swift in Sources */,
+				F5C30A4A2824C185000F1891 /* DownloadManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
